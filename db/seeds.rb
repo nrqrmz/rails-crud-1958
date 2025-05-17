@@ -7,3 +7,15 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Restaurant.create!(
+  name: 'Olive Garden',
+  address: 'Pennsylvania, USA',
+  rating: 5
+)
+
+Restaurant.create!(
+  name: 'McDondalds',
+  address: 'Pennsylvania, USA',
+  rating: 5
+)
